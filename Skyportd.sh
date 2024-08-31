@@ -14,7 +14,7 @@ if [ "$answer" != "yes" ]; then
     exit 0
 fi
 
-echo_message "* Installed node"
+echo_message "* Installed Node"
 
 # Create directory, clone repository, and install files
 git clone --branch v0.2.2 https://github.com/skyportlabs/skyportd
