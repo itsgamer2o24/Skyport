@@ -31,7 +31,8 @@ vi config.json #:q1
 npm install
 clear
 
-echo_message "* Use this cmd first ( cd skyportd/ )" 
+
+echo_message "* Use this first ( cd skyportd/ )"
 
 echo_message "* Get your Panel's access key from the Skyport panel's config.json file and set it as 'remoteKey'. Do the same for the other way, set your skyportd access key and configure it on the Panel."
 
