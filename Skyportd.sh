@@ -5,8 +5,7 @@ echo_message() {
     echo -e "\033[1;32m$1\033[0m"
 }
 
-echo_message "Do you want to install the Skyport Daemon (skyportd)
-? (yes/no)"
+echo_message "Do you want to install the Skyport Daemon (skyportd) ? (yes/no)"
 read answer
 
 if [ "$answer" != "yes" ]; then
