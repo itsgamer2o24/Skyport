@@ -17,7 +17,6 @@ fi
 echo_message "* Installed node"
 
 # Create directory, clone repository, and install files
-cd ..
 git clone --branch v0.2.2 https://github.com/skyportlabs/skyportd
 cd skyportd/ || { echo_message "Failed to change directory to panel"; exit 1; }
 git branch
