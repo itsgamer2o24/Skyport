@@ -2,7 +2,7 @@
 
 # Function to display messages
 echo_message() {
-    echo "\033[1;32m$1\033[0m"
+    echo -e "\033[1;32m$1\033[0m"
 }
 
 echo_message "Do you want to install the Skyport Daemon (skyportd)
