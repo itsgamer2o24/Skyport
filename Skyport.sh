@@ -13,7 +13,7 @@ if [ "$answer" != "yes" ]; then
     exit 0
 fi
 
-echo_message "* Installing Dependencies"
+echo_message "* Installing Sudo"
 
 # Update package list and install dependencies
 sudo apt update
@@ -21,9 +21,7 @@ sudo apt install -y nodejs
 node -v
 clear
 
-echo_message "* Installed panel"
-
-echo_message "* Installing Files"
+echo_message "* Installed Panel"
 
 # Create directory, clone repository, and install files
 git clone --branch v0.2.1 https://github.com/skyportlabs/panel
@@ -32,7 +30,7 @@ git branch
 git switch -c v0.2.1
 clear
 
-echo_message "* Installed skyport"
+echo_message "* Installed Skyport"
 
 # Create directory, clone repository, and install files
 cd ..
