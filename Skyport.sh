@@ -5,7 +5,12 @@ echo_message() {
     echo -e "\033[1;32m$1\033[0m"
 }
 
-echo_message "Do you want to install the panel? (yes/no)"
+echo_message "Do you want to install the panel? (yes/no)
+   ______                      __                       __
+  / __/ /____ _____  ___  ____/ /_  ___  ___ ____  ___ / /
+ _\ \/  '_/ // / _ \/ _ \/ __/ __/ / _ \/ _ \` _ \/ -_) / 
+/___/_/\_\\_, / .__/\___/_/  \__/ / .__/\_,_/_//_/\__/_/  
+         /___/_/                 /_/                      "
 read answer
 
 if [ "$answer" != "yes" ]; then
