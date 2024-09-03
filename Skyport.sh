@@ -18,7 +18,7 @@ if [ "$answer" != "yes" ]; then
     exit 0
 fi
 
-echo_message "* Installing Sudo"
+echo_message "* Installing Dependencies"
 
 # Update package list and install dependencies
 sudo apt update
