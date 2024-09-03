@@ -44,7 +44,7 @@ cd skyport/
 npm install
 clear
 
-echo_message "* Installed User"
+echo_message "* Create The User"
 
 # Run setup scripts
 npm run seed
