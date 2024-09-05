@@ -29,8 +29,10 @@ clear
 echo_message "* Installed Panel"
 
 # Create directory, clone repository, and install files
-git clone https://github.com/skyportlabs/panel
+git clone --branch v0.2.1  https://github.com/skyportlabs/panel
 cd panel || { echo_message "Failed to change directory to panel"; exit 1; }
+git branch
+git switch v0.2.1
 clear
 
 echo_message "* Installed Skyport"
